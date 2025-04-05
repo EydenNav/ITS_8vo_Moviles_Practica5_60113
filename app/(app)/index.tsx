@@ -3,7 +3,8 @@ import { useFocusEffect, useRouter } from 'expo-router';
 import React, { useCallback } from 'react';
 import { ActivityIndicator, Alert, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { Card, IconButton, Text } from 'react-native-paper';
-import useNotes from '../hooks/useNotes';
+import useNotes from '../../hooks/useNotes';
+
 
 export default function NotesListScreen() {
   const router = useRouter();
